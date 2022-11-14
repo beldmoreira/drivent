@@ -11,6 +11,18 @@ export type ViaCEPAddress = {
   uf: string;
 };
 
+export type cepAPI = {
+  cep: string;
+  logradouro: string;
+  complemento: string;
+  bairro: string;
+  localidade: string;
+  uf: string;
+  ibge: string;
+  gia: string;
+  ddd: string;
+  siafi: string;
+};
 export type RequestError = {
   status: number;
   data: object | null;
